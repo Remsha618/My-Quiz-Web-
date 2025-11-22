@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Home Page -->
+  <section id="home" class="active page">
+    <h1>Interactive Quiz App</h1>
+    <p>Let's Examine How Much You Know!</p>
+    <button id="beginQuiz">Let's Begin Quiz</button>
+  </section>
+  <!-- Quiz Page -->
+  <section id="quiz" class="page">
+    <div class="question-box">
+      <h2 id="q-title"></h2>
+      <div id="q-options" class="options"></div>
+    </div>
+    <button id="continueBtn" class="hide">Continue</button>
+  </section>
+  <!-- Result Page -->
+  <section id="result" class="page">
+    <h1>Your Final Score</h1>
+    <h2 id="finalScore"></h2>
+    <p id="scoreRemark"></p>
+    <button id="playAgain">Play Again</button>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
